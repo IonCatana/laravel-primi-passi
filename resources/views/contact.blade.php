@@ -40,7 +40,7 @@
 <body>
     <div class="content">
         <div class="title m-b-md">
-            <h1>{{ $title }}</h1>
+            <h1>Contact</h1>
         </div>
     </div>
     </div>
