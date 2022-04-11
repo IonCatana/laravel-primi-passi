@@ -11,6 +11,7 @@
 
         <!-- Styles -->
         <style>
+            w
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -33,7 +34,7 @@
     <body>
             <div class="content">
                 <div class="title m-b-md">
-                    <h1>Hello World</h1>
+                    <h1>{{$title}}</h1>
                 </div>
             </div>
         </div>
