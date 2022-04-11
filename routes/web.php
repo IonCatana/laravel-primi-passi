@@ -17,3 +17,19 @@ Route::get('/', function () {
     $title = 'Hello World';
     return view('home', compact('title'));
 });
+
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
+
+Route::get('/contact', function(){
+    return view('contact');
+})->name('contact');
+
+Route::get('/shop', function(){
+    return view('shop');
+})->name('shop');
+
+Route::get('/gallery', function(){
+    return view('gallery');
+})->name('gallery'); 
